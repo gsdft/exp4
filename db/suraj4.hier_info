@@ -1,0 +1,11 @@
+|suraj4
+A => temp_sum.IN1
+A => Cout.IN1
+B => B_xor_mode.IN0
+Cin => temp_sum.IN1
+Cin => Cout.IN1
+mode => B_xor_mode.IN1
+Sum <= temp_sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
